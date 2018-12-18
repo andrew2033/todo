@@ -1,0 +1,118 @@
+.background {
+  background: #eee; }
+
+.title {
+  text-align: center;
+  font-size: 100px;
+  font-family: "helvetica neue";
+  font-weight: 100;
+  color: rgba(175, 47, 47, 0.15); }
+
+.ToDoApp {
+  width: 40%;
+  margin: auto;
+  background: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1); }
+  .ToDoApp__header {
+    position: relative; }
+  .ToDoApp__create {
+    font-style: italic;
+    font-family: "helvetica neue";
+    font-weight: 200;
+    font-size: 24px;
+    width: 100%;
+    border: 0;
+    box-sizing: border-box;
+    box-shadow: 0px 0.1px 1px silver;
+    padding: 16px 16px 16px 60px;
+    outline: none; }
+  .ToDoApp__list {
+    padding: 0;
+    margin: 0; }
+  .ToDoApp__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    border: 1px solid #eee; }
+    .ToDoApp__item:hover .remove {
+      opacity: 0.3; }
+  .ToDoApp__tab {
+    cursor: pointer;
+    border: 1px solid #fff;
+    padding: 5px; }
+    .ToDoApp__tab:hover {
+      border: 1px solid silver;
+      border-radius: 5px; }
+  .ToDoApp__footer {
+    border: 0;
+    height: 40px;
+    box-shadow: 0px 0.1px 1px silver;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "helvetica neue";
+    font-weight: 200; }
+  .ToDoApp__clear:hover {
+    cursor: pointer;
+    border-bottom: 1px solid silver; }
+  .ToDoApp__arrow {
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    font-size: 24px;
+    padding: 10px;
+    color: #e6e6e6;
+    transform: rotate(90deg);
+    cursor: pointer; }
+
+.toggle {
+  display: block;
+  cursor: pointer;
+  box-sizing: border-box; }
+
+.remove {
+  display: block;
+  font-size: 20px;
+  padding: 10px 20px 10px 10px;
+  opacity: 0;
+  cursor: pointer; }
+  .remove:hover {
+    opacity: 1 !important; }
+
+.checkbox {
+  position: absolute;
+  visibility: hidden; }
+
+.task-text {
+  width: 100%;
+  font-size: 24px;
+  font-family: "helvetica neue";
+  font-weight: 200;
+  padding: 16px; }
+
+.complited {
+  text-decoration: line-through;
+  color: silver; }
+
+.hide {
+  display: none; }
+
+.tabs-active {
+  border: 1px solid silver;
+  border-radius: 5px; }
+
+.tabs-radio {
+  display: none; }
+
+.tabs-item {
+  display: inline-block; }
+
+.toggleIcon {
+  display: block;
+  height: 40px;
+  width: 40px;
+  background: url("../images/unchecked.svg"); }
+
+.toogleCompleted {
+  background: url("../images/checked.svg"); }

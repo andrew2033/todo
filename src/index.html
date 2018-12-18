@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="normalize/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>todo app</title>
+  </head>
+  <body class="background">
+    <header class="title">
+      todos
+    </header>
+    <div class="ToDoApp">
+      <div class="ToDoApp__header">
+        <input type="text" class="ToDoApp__create" placeholder="What needs to be done?">
+      </div>
+      <div class="ToDoApp__main hide">
+          <ul class="ToDoApp__list"></ul>
+          <div class="ToDoApp__footer">
+            <div class="ToDoApp__counter">
+             <span data-counter="0">0</span> items left
+            </div>
+              <ul class="ToDoApp__tabs">
+                <li class="tabs-item"><label class="ToDoApp__tab">all<input class="tabs-radio" data-tabs="all" type="radio" name="tabs"></label></li>
+                <li class="tabs-item"><label class="ToDoApp__tab">active<input class="tabs-radio" data-tabs="active" type="radio" name="tabs"></label></li>
+                <li class="tabs-item"><label class="ToDoApp__tab">complited<input class="tabs-radio" data-tabs="complited" type="radio" name="tabs"></label></li>
+              </ul>
+            <div class="ToDoApp__clear">
+                Clear complited
+            </div>
+          </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
