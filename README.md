@@ -1,1 +1,1 @@
- https://andrew2033.github.io/todo/src
+ https://andrew2033.github.io/todo/dist
